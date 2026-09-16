@@ -1,0 +1,877 @@
+circuit_name,num_qubits,attack_type,noise_rate,tvd,risk_score,expected_label,predicted_label,correct
+adder_n4.qasm,4,Normal,0.005,0.05,4.51,0,0,True
+adder_n4.qasm,4,Gate Insertion,0.005,0.995,97.61,1,1,True
+adder_n4.qasm,4,Gate Deletion,0.005,1.0,98.65,1,1,True
+adder_n4.qasm,4,Gate Substitution,0.005,0.975,99.2,1,1,True
+adder_n4.qasm,4,Multiple Gate Insertion,0.005,0.99,99.2,1,1,True
+adder_n4.qasm,4,Normal,0.01,0.15,10.63,0,0,True
+adder_n4.qasm,4,Gate Insertion,0.01,0.985,97.75,1,1,True
+adder_n4.qasm,4,Gate Deletion,0.01,0.995,98.74,1,1,True
+adder_n4.qasm,4,Gate Substitution,0.01,0.99,99.25,1,1,True
+adder_n4.qasm,4,Multiple Gate Insertion,0.01,0.995,99.25,1,1,True
+adder_n4.qasm,4,Normal,0.02,0.26,30.88,0,0,True
+adder_n4.qasm,4,Gate Insertion,0.02,0.99,98.26,1,1,True
+adder_n4.qasm,4,Gate Deletion,0.02,0.99,99.02,1,1,True
+adder_n4.qasm,4,Gate Substitution,0.02,0.985,99.42,1,1,True
+adder_n4.qasm,4,Multiple Gate Insertion,0.02,0.975,99.42,1,1,True
+adder_n4.qasm,4,Normal,0.03,0.46,94.9,0,1,False
+adder_n4.qasm,4,Gate Insertion,0.03,0.96,98.26,1,1,True
+adder_n4.qasm,4,Gate Deletion,0.03,0.985,99.02,1,1,True
+adder_n4.qasm,4,Gate Substitution,0.03,0.97,99.42,1,1,True
+adder_n4.qasm,4,Multiple Gate Insertion,0.03,0.935,99.42,1,1,True
+adder_n4.qasm,4,Normal,0.04,0.53,98.26,0,1,False
+adder_n4.qasm,4,Gate Insertion,0.04,0.95,98.26,1,1,True
+adder_n4.qasm,4,Gate Deletion,0.04,0.975,99.02,1,1,True
+adder_n4.qasm,4,Gate Substitution,0.04,0.96,99.42,1,1,True
+adder_n4.qasm,4,Multiple Gate Insertion,0.04,0.91,99.42,1,1,True
+adder_n4.qasm,4,Normal,0.05,0.555,98.26,0,1,False
+adder_n4.qasm,4,Gate Insertion,0.05,0.93,98.26,1,1,True
+adder_n4.qasm,4,Gate Deletion,0.05,0.97,99.02,1,1,True
+adder_n4.qasm,4,Gate Substitution,0.05,0.965,99.42,1,1,True
+adder_n4.qasm,4,Multiple Gate Insertion,0.05,0.92,99.42,1,1,True
+basis_change_n3.qasm,3,Normal,0.005,0.16,6.97,0,0,True
+basis_change_n3.qasm,3,Gate Insertion,0.005,0.945,97.46,1,1,True
+basis_change_n3.qasm,3,Gate Deletion,0.005,0.145,6.97,1,0,False
+basis_change_n3.qasm,3,Gate Substitution,0.005,0.515,99.18,1,1,True
+basis_change_n3.qasm,3,Multiple Gate Insertion,0.005,0.115,91.88,1,1,True
+basis_change_n3.qasm,3,Normal,0.01,0.225,26.46,0,0,True
+basis_change_n3.qasm,3,Gate Insertion,0.01,0.93,97.37,1,1,True
+basis_change_n3.qasm,3,Gate Deletion,0.01,0.32,47.66,1,0,False
+basis_change_n3.qasm,3,Gate Substitution,0.01,0.565,99.15,1,1,True
+basis_change_n3.qasm,3,Multiple Gate Insertion,0.01,0.25,89.94,1,1,True
+basis_change_n3.qasm,3,Normal,0.02,0.45,85.64,0,1,False
+basis_change_n3.qasm,3,Gate Insertion,0.02,0.91,97.96,1,1,True
+basis_change_n3.qasm,3,Gate Deletion,0.02,0.435,40.94,1,0,False
+basis_change_n3.qasm,3,Gate Substitution,0.02,0.625,99.33,1,1,True
+basis_change_n3.qasm,3,Multiple Gate Insertion,0.02,0.41,67.4,1,1,True
+basis_change_n3.qasm,3,Normal,0.03,0.545,97.86,0,1,False
+basis_change_n3.qasm,3,Gate Insertion,0.03,0.88,97.96,1,1,True
+basis_change_n3.qasm,3,Gate Deletion,0.03,0.56,97.86,1,1,True
+basis_change_n3.qasm,3,Gate Substitution,0.03,0.65,99.33,1,1,True
+basis_change_n3.qasm,3,Multiple Gate Insertion,0.03,0.66,99.36,1,1,True
+basis_change_n3.qasm,3,Normal,0.04,0.625,97.86,0,1,False
+basis_change_n3.qasm,3,Gate Insertion,0.04,0.835,97.96,1,1,True
+basis_change_n3.qasm,3,Gate Deletion,0.04,0.67,97.86,1,1,True
+basis_change_n3.qasm,3,Gate Substitution,0.04,0.725,99.33,1,1,True
+basis_change_n3.qasm,3,Multiple Gate Insertion,0.04,0.64,99.36,1,1,True
+basis_change_n3.qasm,3,Normal,0.05,0.73,97.86,0,1,False
+basis_change_n3.qasm,3,Gate Insertion,0.05,0.855,97.96,1,1,True
+basis_change_n3.qasm,3,Gate Deletion,0.05,0.69,97.86,1,1,True
+basis_change_n3.qasm,3,Gate Substitution,0.05,0.745,99.33,1,1,True
+basis_change_n3.qasm,3,Multiple Gate Insertion,0.05,0.71,99.36,1,1,True
+bb84_n8.qasm,8,Normal,0.005,0.245,39.08,0,0,True
+bb84_n8.qasm,8,Gate Insertion,0.005,0.205,18.79,1,0,False
+bb84_n8.qasm,8,Gate Deletion,0.005,0.21,18.79,1,0,False
+bb84_n8.qasm,8,Gate Substitution,0.005,0.225,99.44,1,1,True
+bb84_n8.qasm,8,Multiple Gate Insertion,0.005,0.185,13.61,1,0,False
+bb84_n8.qasm,8,Normal,0.01,0.275,31.34,0,0,True
+bb84_n8.qasm,8,Gate Insertion,0.01,0.275,31.34,1,0,False
+bb84_n8.qasm,8,Gate Deletion,0.01,0.19,11.53,1,0,False
+bb84_n8.qasm,8,Gate Substitution,0.01,0.255,98.94,1,1,True
+bb84_n8.qasm,8,Multiple Gate Insertion,0.01,0.295,67.48,1,1,True
+bb84_n8.qasm,8,Normal,0.02,0.215,8.27,0,0,True
+bb84_n8.qasm,8,Gate Insertion,0.02,0.25,19.99,1,0,False
+bb84_n8.qasm,8,Gate Deletion,0.02,0.29,50.43,1,1,True
+bb84_n8.qasm,8,Gate Substitution,0.02,0.27,97.97,1,1,True
+bb84_n8.qasm,8,Multiple Gate Insertion,0.02,0.27,20.73,1,0,False
+bb84_n8.qasm,8,Normal,0.03,0.3,50.43,0,1,False
+bb84_n8.qasm,8,Gate Insertion,0.03,0.295,50.43,1,1,True
+bb84_n8.qasm,8,Gate Deletion,0.03,0.34,50.43,1,1,True
+bb84_n8.qasm,8,Gate Substitution,0.03,0.345,97.83,1,1,True
+bb84_n8.qasm,8,Multiple Gate Insertion,0.03,0.275,20.73,1,0,False
+bb84_n8.qasm,8,Normal,0.04,0.305,50.43,0,1,False
+bb84_n8.qasm,8,Gate Insertion,0.04,0.33,50.43,1,1,True
+bb84_n8.qasm,8,Gate Deletion,0.04,0.39,74.5,1,1,True
+bb84_n8.qasm,8,Gate Substitution,0.04,0.295,97.63,1,1,True
+bb84_n8.qasm,8,Multiple Gate Insertion,0.04,0.305,51.57,1,1,True
+bb84_n8.qasm,8,Normal,0.05,0.385,73.14,0,1,False
+bb84_n8.qasm,8,Gate Insertion,0.05,0.31,50.43,1,1,True
+bb84_n8.qasm,8,Gate Deletion,0.05,0.4,81.76,1,1,True
+bb84_n8.qasm,8,Gate Substitution,0.05,0.34,97.63,1,1,True
+bb84_n8.qasm,8,Multiple Gate Insertion,0.05,0.295,51.57,1,1,True
+bell_n4.qasm,4,Normal,0.005,0.11,11.9,0,0,True
+bell_n4.qasm,4,Gate Insertion,0.005,0.13,97.08,1,1,True
+bell_n4.qasm,4,Gate Deletion,0.005,0.285,54.25,1,1,True
+bell_n4.qasm,4,Gate Substitution,0.005,0.375,97.81,1,1,True
+bell_n4.qasm,4,Multiple Gate Insertion,0.005,0.39,93.32,1,1,True
+bell_n4.qasm,4,Normal,0.01,0.14,10.43,0,0,True
+bell_n4.qasm,4,Gate Insertion,0.01,0.14,96.52,1,1,True
+bell_n4.qasm,4,Gate Deletion,0.01,0.315,80.1,1,1,True
+bell_n4.qasm,4,Gate Substitution,0.01,0.36,97.62,1,1,True
+bell_n4.qasm,4,Multiple Gate Insertion,0.01,0.35,88.81,1,1,True
+bell_n4.qasm,4,Normal,0.02,0.225,45.75,0,0,True
+bell_n4.qasm,4,Gate Insertion,0.02,0.18,95.12,1,1,True
+bell_n4.qasm,4,Gate Deletion,0.02,0.275,37.03,1,0,False
+bell_n4.qasm,4,Gate Substitution,0.02,0.345,94.42,1,1,True
+bell_n4.qasm,4,Multiple Gate Insertion,0.02,0.375,87.21,1,1,True
+bell_n4.qasm,4,Normal,0.03,0.225,45.75,0,0,True
+bell_n4.qasm,4,Gate Insertion,0.03,0.255,96.53,1,1,True
+bell_n4.qasm,4,Gate Deletion,0.03,0.265,37.03,1,0,False
+bell_n4.qasm,4,Gate Substitution,0.03,0.36,96.07,1,1,True
+bell_n4.qasm,4,Multiple Gate Insertion,0.03,0.335,71.59,1,1,True
+bell_n4.qasm,4,Normal,0.04,0.24,37.03,0,0,True
+bell_n4.qasm,4,Gate Insertion,0.04,0.255,96.53,1,1,True
+bell_n4.qasm,4,Gate Deletion,0.04,0.285,37.03,1,0,False
+bell_n4.qasm,4,Gate Substitution,0.04,0.355,93.17,1,1,True
+bell_n4.qasm,4,Multiple Gate Insertion,0.04,0.335,71.59,1,1,True
+bell_n4.qasm,4,Normal,0.05,0.27,37.03,0,0,True
+bell_n4.qasm,4,Gate Insertion,0.05,0.27,96.54,1,1,True
+bell_n4.qasm,4,Gate Deletion,0.05,0.29,70.54,1,1,True
+bell_n4.qasm,4,Gate Substitution,0.05,0.34,95.27,1,1,True
+bell_n4.qasm,4,Multiple Gate Insertion,0.05,0.355,79.21,1,1,True
+cat_state_n4.qasm,4,Normal,0.005,0.035,4.9,0,0,True
+cat_state_n4.qasm,4,Gate Insertion,0.005,0.035,99.01,1,1,True
+cat_state_n4.qasm,4,Gate Deletion,0.005,0.545,98.76,1,1,True
+cat_state_n4.qasm,4,Gate Substitution,0.005,0.465,99.5,1,1,True
+cat_state_n4.qasm,4,Multiple Gate Insertion,0.005,0.025,4.9,1,0,False
+cat_state_n4.qasm,4,Normal,0.01,0.05,5.73,0,0,True
+cat_state_n4.qasm,4,Gate Insertion,0.01,0.065,99.16,1,1,True
+cat_state_n4.qasm,4,Gate Deletion,0.01,0.525,98.78,1,1,True
+cat_state_n4.qasm,4,Gate Substitution,0.01,0.45,99.43,1,1,True
+cat_state_n4.qasm,4,Multiple Gate Insertion,0.01,0.085,5.73,1,0,False
+cat_state_n4.qasm,4,Normal,0.02,0.105,8.66,0,0,True
+cat_state_n4.qasm,4,Gate Insertion,0.02,0.105,98.12,1,1,True
+cat_state_n4.qasm,4,Gate Deletion,0.02,0.495,99.06,1,1,True
+cat_state_n4.qasm,4,Gate Substitution,0.02,0.455,99.01,1,1,True
+cat_state_n4.qasm,4,Multiple Gate Insertion,0.02,0.14,19.26,1,0,False
+cat_state_n4.qasm,4,Normal,0.03,0.1,6.58,0,0,True
+cat_state_n4.qasm,4,Gate Insertion,0.03,0.125,98.61,1,1,True
+cat_state_n4.qasm,4,Gate Deletion,0.03,0.495,99.06,1,1,True
+cat_state_n4.qasm,4,Gate Substitution,0.03,0.445,98.56,1,1,True
+cat_state_n4.qasm,4,Multiple Gate Insertion,0.03,0.1,6.58,1,0,False
+cat_state_n4.qasm,4,Normal,0.04,0.145,19.26,0,0,True
+cat_state_n4.qasm,4,Gate Insertion,0.04,0.135,98.61,1,1,True
+cat_state_n4.qasm,4,Gate Deletion,0.04,0.58,99.06,1,1,True
+cat_state_n4.qasm,4,Gate Substitution,0.04,0.425,98.45,1,1,True
+cat_state_n4.qasm,4,Multiple Gate Insertion,0.04,0.155,19.26,1,0,False
+cat_state_n4.qasm,4,Normal,0.05,0.155,19.26,0,0,True
+cat_state_n4.qasm,4,Gate Insertion,0.05,0.21,98.43,1,1,True
+cat_state_n4.qasm,4,Gate Deletion,0.05,0.575,99.06,1,1,True
+cat_state_n4.qasm,4,Gate Substitution,0.05,0.435,98.51,1,1,True
+cat_state_n4.qasm,4,Multiple Gate Insertion,0.05,0.21,33.63,1,0,False
+deutsch_n2.qasm,2,Normal,0.005,0.035,5.15,0,0,True
+deutsch_n2.qasm,2,Gate Insertion,0.005,0.015,99.06,1,1,True
+deutsch_n2.qasm,2,Gate Deletion,0.005,0.47,98.69,1,1,True
+deutsch_n2.qasm,2,Gate Substitution,0.005,0.47,99.52,1,1,True
+deutsch_n2.qasm,2,Multiple Gate Insertion,0.005,0.995,99.52,1,1,True
+deutsch_n2.qasm,2,Normal,0.01,0.09,8.65,0,0,True
+deutsch_n2.qasm,2,Gate Insertion,0.01,0.09,98.97,1,1,True
+deutsch_n2.qasm,2,Gate Deletion,0.01,0.55,98.84,1,1,True
+deutsch_n2.qasm,2,Gate Substitution,0.01,0.515,99.58,1,1,True
+deutsch_n2.qasm,2,Multiple Gate Insertion,0.01,0.975,99.53,1,1,True
+deutsch_n2.qasm,2,Normal,0.02,0.075,6.16,0,0,True
+deutsch_n2.qasm,2,Gate Insertion,0.02,0.105,98.21,1,1,True
+deutsch_n2.qasm,2,Gate Deletion,0.02,0.515,99.11,1,1,True
+deutsch_n2.qasm,2,Gate Substitution,0.02,0.47,99.06,1,1,True
+deutsch_n2.qasm,2,Multiple Gate Insertion,0.02,0.94,99.64,1,1,True
+deutsch_n2.qasm,2,Normal,0.03,0.1,6.9,0,0,True
+deutsch_n2.qasm,2,Gate Insertion,0.03,0.115,98.16,1,1,True
+deutsch_n2.qasm,2,Gate Deletion,0.03,0.545,99.11,1,1,True
+deutsch_n2.qasm,2,Gate Substitution,0.03,0.51,99.68,1,1,True
+deutsch_n2.qasm,2,Multiple Gate Insertion,0.03,0.925,99.64,1,1,True
+deutsch_n2.qasm,2,Normal,0.04,0.115,10.58,0,0,True
+deutsch_n2.qasm,2,Gate Insertion,0.04,0.14,98.68,1,1,True
+deutsch_n2.qasm,2,Gate Deletion,0.04,0.54,99.11,1,1,True
+deutsch_n2.qasm,2,Gate Substitution,0.04,0.44,98.59,1,1,True
+deutsch_n2.qasm,2,Multiple Gate Insertion,0.04,0.885,99.64,1,1,True
+deutsch_n2.qasm,2,Normal,0.05,0.16,20.07,0,0,True
+deutsch_n2.qasm,2,Gate Insertion,0.05,0.18,98.51,1,1,True
+deutsch_n2.qasm,2,Gate Deletion,0.05,0.53,99.11,1,1,True
+deutsch_n2.qasm,2,Gate Substitution,0.05,0.495,99.68,1,1,True
+deutsch_n2.qasm,2,Multiple Gate Insertion,0.05,0.845,99.64,1,1,True
+dnn_n2.qasm,2,Normal,0.005,0.26,47.44,0,0,True
+dnn_n2.qasm,2,Gate Insertion,0.005,0.43,87.87,1,1,True
+dnn_n2.qasm,2,Gate Deletion,0.005,0.315,69.93,1,1,True
+dnn_n2.qasm,2,Gate Substitution,0.005,0.25,47.44,1,0,False
+dnn_n2.qasm,2,Multiple Gate Insertion,0.005,0.25,97.9,1,1,True
+dnn_n2.qasm,2,Normal,0.01,0.26,42.93,0,0,True
+dnn_n2.qasm,2,Gate Insertion,0.01,0.375,79.72,1,1,True
+dnn_n2.qasm,2,Gate Deletion,0.01,0.375,78.66,1,1,True
+dnn_n2.qasm,2,Gate Substitution,0.01,0.335,65.2,1,1,True
+dnn_n2.qasm,2,Multiple Gate Insertion,0.01,0.345,95.62,1,1,True
+dnn_n2.qasm,2,Normal,0.02,0.305,53.55,0,1,False
+dnn_n2.qasm,2,Gate Insertion,0.02,0.415,79.4,1,1,True
+dnn_n2.qasm,2,Gate Deletion,0.02,0.39,70.17,1,1,True
+dnn_n2.qasm,2,Gate Substitution,0.02,0.44,78.4,1,1,True
+dnn_n2.qasm,2,Multiple Gate Insertion,0.02,0.405,95.6,1,1,True
+dnn_n2.qasm,2,Normal,0.03,0.43,77.76,0,1,False
+dnn_n2.qasm,2,Gate Insertion,0.03,0.3,56.48,1,1,True
+dnn_n2.qasm,2,Gate Deletion,0.03,0.39,70.17,1,1,True
+dnn_n2.qasm,2,Gate Substitution,0.03,0.385,68.68,1,1,True
+dnn_n2.qasm,2,Multiple Gate Insertion,0.03,0.38,94.05,1,1,True
+dnn_n2.qasm,2,Normal,0.04,0.385,68.68,0,1,False
+dnn_n2.qasm,2,Gate Insertion,0.04,0.4,79.4,1,1,True
+dnn_n2.qasm,2,Gate Deletion,0.04,0.355,60.04,1,1,True
+dnn_n2.qasm,2,Gate Substitution,0.04,0.32,53.55,1,1,True
+dnn_n2.qasm,2,Multiple Gate Insertion,0.04,0.395,95.6,1,1,True
+dnn_n2.qasm,2,Normal,0.05,0.39,70.17,0,1,False
+dnn_n2.qasm,2,Gate Insertion,0.05,0.365,70.75,1,1,True
+dnn_n2.qasm,2,Gate Deletion,0.05,0.41,77.76,1,1,True
+dnn_n2.qasm,2,Gate Substitution,0.05,0.38,68.68,1,1,True
+dnn_n2.qasm,2,Multiple Gate Insertion,0.05,0.365,94.05,1,1,True
+dnn_n8.qasm,8,Normal,0.005,0.67,32.28,0,0,True
+dnn_n8.qasm,8,Gate Insertion,0.005,0.695,98.49,1,1,True
+dnn_n8.qasm,8,Gate Deletion,0.005,0.815,32.28,1,0,False
+dnn_n8.qasm,8,Gate Substitution,0.005,0.735,75.13,1,1,True
+dnn_n8.qasm,8,Multiple Gate Insertion,0.005,0.765,96.9,1,1,True
+dnn_n8.qasm,8,Normal,0.01,0.785,31.9,0,0,True
+dnn_n8.qasm,8,Gate Insertion,0.01,0.795,98.47,1,1,True
+dnn_n8.qasm,8,Gate Deletion,0.01,0.76,31.9,1,0,False
+dnn_n8.qasm,8,Gate Substitution,0.01,0.775,74.79,1,1,True
+dnn_n8.qasm,8,Multiple Gate Insertion,0.01,0.755,96.87,1,1,True
+dnn_n8.qasm,8,Normal,0.02,0.785,30.85,0,0,True
+dnn_n8.qasm,8,Gate Insertion,0.02,0.8,98.4,1,1,True
+dnn_n8.qasm,8,Gate Deletion,0.02,0.815,30.85,1,0,False
+dnn_n8.qasm,8,Gate Substitution,0.02,0.815,73.86,1,1,True
+dnn_n8.qasm,8,Multiple Gate Insertion,0.02,0.775,96.72,1,1,True
+dnn_n8.qasm,8,Normal,0.03,0.785,30.85,0,0,True
+dnn_n8.qasm,8,Gate Insertion,0.03,0.755,98.4,1,1,True
+dnn_n8.qasm,8,Gate Deletion,0.03,0.82,30.85,1,0,False
+dnn_n8.qasm,8,Gate Substitution,0.03,0.825,73.86,1,1,True
+dnn_n8.qasm,8,Multiple Gate Insertion,0.03,0.775,96.72,1,1,True
+dnn_n8.qasm,8,Normal,0.04,0.815,30.85,0,0,True
+dnn_n8.qasm,8,Gate Insertion,0.04,0.835,98.4,1,1,True
+dnn_n8.qasm,8,Gate Deletion,0.04,0.795,30.85,1,0,False
+dnn_n8.qasm,8,Gate Substitution,0.04,0.775,73.86,1,1,True
+dnn_n8.qasm,8,Multiple Gate Insertion,0.04,0.79,96.72,1,1,True
+dnn_n8.qasm,8,Normal,0.05,0.8,30.85,0,0,True
+dnn_n8.qasm,8,Gate Insertion,0.05,0.79,98.4,1,1,True
+dnn_n8.qasm,8,Gate Deletion,0.05,0.805,30.85,1,0,False
+dnn_n8.qasm,8,Gate Substitution,0.05,0.835,73.86,1,1,True
+dnn_n8.qasm,8,Multiple Gate Insertion,0.05,0.795,96.72,1,1,True
+error_correctiond3_n5.qasm,5,Normal,0.005,0.3,36.2,0,0,True
+error_correctiond3_n5.qasm,5,Gate Insertion,0.005,0.475,68.79,1,1,True
+error_correctiond3_n5.qasm,5,Gate Deletion,0.005,0.495,71.13,1,1,True
+error_correctiond3_n5.qasm,5,Gate Substitution,0.005,0.5,97.93,1,1,True
+error_correctiond3_n5.qasm,5,Multiple Gate Insertion,0.005,0.715,99.65,1,1,True
+error_correctiond3_n5.qasm,5,Normal,0.01,0.435,48.61,0,0,True
+error_correctiond3_n5.qasm,5,Gate Insertion,0.01,0.48,63.19,1,1,True
+error_correctiond3_n5.qasm,5,Gate Deletion,0.01,0.545,70.33,1,1,True
+error_correctiond3_n5.qasm,5,Gate Substitution,0.01,0.56,97.85,1,1,True
+error_correctiond3_n5.qasm,5,Multiple Gate Insertion,0.01,0.625,99.64,1,1,True
+error_correctiond3_n5.qasm,5,Normal,0.02,0.43,34.37,0,0,True
+error_correctiond3_n5.qasm,5,Gate Insertion,0.02,0.515,72.5,1,1,True
+error_correctiond3_n5.qasm,5,Gate Deletion,0.02,0.535,73.23,1,1,True
+error_correctiond3_n5.qasm,5,Gate Substitution,0.02,0.485,97.89,1,1,True
+error_correctiond3_n5.qasm,5,Multiple Gate Insertion,0.02,0.515,99.65,1,1,True
+error_correctiond3_n5.qasm,5,Normal,0.03,0.445,36.64,0,0,True
+error_correctiond3_n5.qasm,5,Gate Insertion,0.03,0.505,72.5,1,1,True
+error_correctiond3_n5.qasm,5,Gate Deletion,0.03,0.5,73.23,1,1,True
+error_correctiond3_n5.qasm,5,Gate Substitution,0.03,0.55,97.89,1,1,True
+error_correctiond3_n5.qasm,5,Multiple Gate Insertion,0.03,0.555,99.65,1,1,True
+error_correctiond3_n5.qasm,5,Normal,0.04,0.485,70.69,0,1,False
+error_correctiond3_n5.qasm,5,Gate Insertion,0.04,0.525,72.5,1,1,True
+error_correctiond3_n5.qasm,5,Gate Deletion,0.04,0.54,73.23,1,1,True
+error_correctiond3_n5.qasm,5,Gate Substitution,0.04,0.565,97.89,1,1,True
+error_correctiond3_n5.qasm,5,Multiple Gate Insertion,0.04,0.525,99.65,1,1,True
+error_correctiond3_n5.qasm,5,Normal,0.05,0.475,48.98,0,0,True
+error_correctiond3_n5.qasm,5,Gate Insertion,0.05,0.54,72.5,1,1,True
+error_correctiond3_n5.qasm,5,Gate Deletion,0.05,0.52,73.23,1,1,True
+error_correctiond3_n5.qasm,5,Gate Substitution,0.05,0.48,94.86,1,1,True
+error_correctiond3_n5.qasm,5,Multiple Gate Insertion,0.05,0.495,99.65,1,1,True
+fredkin_n3.qasm,3,Normal,0.005,0.065,5.12,0,0,True
+fredkin_n3.qasm,3,Gate Insertion,0.005,0.065,98.75,1,1,True
+fredkin_n3.qasm,3,Gate Deletion,0.005,0.78,98.45,1,1,True
+fredkin_n3.qasm,3,Gate Substitution,0.005,0.095,90.04,1,1,True
+fredkin_n3.qasm,3,Multiple Gate Insertion,0.005,0.505,99.33,1,1,True
+fredkin_n3.qasm,3,Normal,0.01,0.15,11.97,0,0,True
+fredkin_n3.qasm,3,Gate Insertion,0.01,0.11,97.46,1,1,True
+fredkin_n3.qasm,3,Gate Deletion,0.01,0.73,98.28,1,1,True
+fredkin_n3.qasm,3,Gate Substitution,0.01,0.145,94.59,1,1,True
+fredkin_n3.qasm,3,Multiple Gate Insertion,0.01,0.575,99.37,1,1,True
+fredkin_n3.qasm,3,Normal,0.02,0.275,37.16,0,0,True
+fredkin_n3.qasm,3,Gate Insertion,0.02,0.285,96.52,1,1,True
+fredkin_n3.qasm,3,Gate Deletion,0.02,0.795,98.67,1,1,True
+fredkin_n3.qasm,3,Gate Substitution,0.02,0.265,94.59,1,1,True
+fredkin_n3.qasm,3,Multiple Gate Insertion,0.02,0.62,99.52,1,1,True
+fredkin_n3.qasm,3,Normal,0.03,0.355,78.45,0,1,False
+fredkin_n3.qasm,3,Gate Insertion,0.03,0.295,95.24,1,1,True
+fredkin_n3.qasm,3,Gate Deletion,0.03,0.785,98.67,1,1,True
+fredkin_n3.qasm,3,Gate Substitution,0.03,0.335,93.71,1,1,True
+fredkin_n3.qasm,3,Multiple Gate Insertion,0.03,0.62,99.52,1,1,True
+fredkin_n3.qasm,3,Normal,0.04,0.48,96.06,0,1,False
+fredkin_n3.qasm,3,Gate Insertion,0.04,0.39,96.45,1,1,True
+fredkin_n3.qasm,3,Gate Deletion,0.04,0.845,98.67,1,1,True
+fredkin_n3.qasm,3,Gate Substitution,0.04,0.46,98.52,1,1,True
+fredkin_n3.qasm,3,Multiple Gate Insertion,0.04,0.68,99.52,1,1,True
+fredkin_n3.qasm,3,Normal,0.05,0.53,98.67,0,1,False
+fredkin_n3.qasm,3,Gate Insertion,0.05,0.515,99.52,1,1,True
+fredkin_n3.qasm,3,Gate Deletion,0.05,0.74,98.67,1,1,True
+fredkin_n3.qasm,3,Gate Substitution,0.05,0.465,98.52,1,1,True
+fredkin_n3.qasm,3,Multiple Gate Insertion,0.05,0.675,99.52,1,1,True
+grover_n2.qasm,2,Normal,0.005,0.05,4.94,0,0,True
+grover_n2.qasm,2,Gate Insertion,0.005,0.54,98.66,1,1,True
+grover_n2.qasm,2,Gate Deletion,0.005,0.995,98.66,1,1,True
+grover_n2.qasm,2,Gate Substitution,0.005,0.485,98.66,1,1,True
+grover_n2.qasm,2,Multiple Gate Insertion,0.005,0.53,99.71,1,1,True
+grover_n2.qasm,2,Normal,0.01,0.14,23.95,0,0,True
+grover_n2.qasm,2,Gate Insertion,0.01,0.535,98.69,1,1,True
+grover_n2.qasm,2,Gate Deletion,0.01,0.94,98.69,1,1,True
+grover_n2.qasm,2,Gate Substitution,0.01,0.56,98.69,1,1,True
+grover_n2.qasm,2,Multiple Gate Insertion,0.01,0.475,99.58,1,1,True
+grover_n2.qasm,2,Normal,0.02,0.18,27.89,0,0,True
+grover_n2.qasm,2,Gate Insertion,0.02,0.575,98.99,1,1,True
+grover_n2.qasm,2,Gate Deletion,0.02,0.925,98.99,1,1,True
+grover_n2.qasm,2,Gate Substitution,0.02,0.54,98.99,1,1,True
+grover_n2.qasm,2,Multiple Gate Insertion,0.02,0.515,99.78,1,1,True
+grover_n2.qasm,2,Normal,0.03,0.3,75.38,0,1,False
+grover_n2.qasm,2,Gate Insertion,0.03,0.59,98.99,1,1,True
+grover_n2.qasm,2,Gate Deletion,0.03,0.915,98.99,1,1,True
+grover_n2.qasm,2,Gate Substitution,0.03,0.575,98.99,1,1,True
+grover_n2.qasm,2,Multiple Gate Insertion,0.03,0.635,99.78,1,1,True
+grover_n2.qasm,2,Normal,0.04,0.325,75.38,0,1,False
+grover_n2.qasm,2,Gate Insertion,0.04,0.64,98.99,1,1,True
+grover_n2.qasm,2,Gate Deletion,0.04,0.885,98.99,1,1,True
+grover_n2.qasm,2,Gate Substitution,0.04,0.635,98.99,1,1,True
+grover_n2.qasm,2,Multiple Gate Insertion,0.04,0.62,99.78,1,1,True
+grover_n2.qasm,2,Normal,0.05,0.395,92.29,0,1,False
+grover_n2.qasm,2,Gate Insertion,0.05,0.65,98.99,1,1,True
+grover_n2.qasm,2,Gate Deletion,0.05,0.825,98.99,1,1,True
+grover_n2.qasm,2,Gate Substitution,0.05,0.64,98.99,1,1,True
+grover_n2.qasm,2,Multiple Gate Insertion,0.05,0.645,99.78,1,1,True
+hhl_n7.qasm,7,Normal,0.005,0.875,33.45,0,0,True
+hhl_n7.qasm,7,Gate Insertion,0.005,0.975,96.37,1,1,True
+hhl_n7.qasm,7,Gate Deletion,0.005,0.9,71.84,1,1,True
+hhl_n7.qasm,7,Gate Substitution,0.005,0.89,63.01,1,1,True
+hhl_n7.qasm,7,Multiple Gate Insertion,0.005,0.945,92.27,1,1,True
+hhl_n7.qasm,7,Normal,0.01,0.96,32.04,0,0,True
+hhl_n7.qasm,7,Gate Insertion,0.01,0.965,96.14,1,1,True
+hhl_n7.qasm,7,Gate Deletion,0.01,0.94,70.52,1,1,True
+hhl_n7.qasm,7,Gate Substitution,0.01,0.965,61.5,1,1,True
+hhl_n7.qasm,7,Multiple Gate Insertion,0.01,0.955,91.8,1,1,True
+hhl_n7.qasm,7,Normal,0.02,0.96,29.99,0,0,True
+hhl_n7.qasm,7,Gate Insertion,0.02,0.965,95.77,1,1,True
+hhl_n7.qasm,7,Gate Deletion,0.02,0.955,68.49,1,1,True
+hhl_n7.qasm,7,Gate Substitution,0.02,0.975,59.2,1,1,True
+hhl_n7.qasm,7,Multiple Gate Insertion,0.02,0.98,91.04,1,1,True
+hhl_n7.qasm,7,Normal,0.03,0.965,29.99,0,0,True
+hhl_n7.qasm,7,Gate Insertion,0.03,0.975,95.77,1,1,True
+hhl_n7.qasm,7,Gate Deletion,0.03,0.975,68.49,1,1,True
+hhl_n7.qasm,7,Gate Substitution,0.03,0.955,59.2,1,1,True
+hhl_n7.qasm,7,Multiple Gate Insertion,0.03,0.965,91.04,1,1,True
+hhl_n7.qasm,7,Normal,0.04,0.96,29.99,0,0,True
+hhl_n7.qasm,7,Gate Insertion,0.04,0.97,95.77,1,1,True
+hhl_n7.qasm,7,Gate Deletion,0.04,0.97,68.49,1,1,True
+hhl_n7.qasm,7,Gate Substitution,0.04,0.955,59.2,1,1,True
+hhl_n7.qasm,7,Multiple Gate Insertion,0.04,0.975,91.04,1,1,True
+hhl_n7.qasm,7,Normal,0.05,0.97,29.99,0,0,True
+hhl_n7.qasm,7,Gate Insertion,0.05,0.975,95.77,1,1,True
+hhl_n7.qasm,7,Gate Deletion,0.05,0.97,68.49,1,1,True
+hhl_n7.qasm,7,Gate Substitution,0.05,0.95,59.2,1,1,True
+hhl_n7.qasm,7,Multiple Gate Insertion,0.05,0.97,91.04,1,1,True
+hs4_n4.qasm,4,Normal,0.005,0.07,2.76,0,0,True
+hs4_n4.qasm,4,Gate Insertion,0.005,0.99,97.85,1,1,True
+hs4_n4.qasm,4,Gate Deletion,0.005,0.99,96.61,1,1,True
+hs4_n4.qasm,4,Gate Substitution,0.005,0.55,98.62,1,1,True
+hs4_n4.qasm,4,Multiple Gate Insertion,0.005,0.525,99.04,1,1,True
+hs4_n4.qasm,4,Normal,0.01,0.205,13.97,0,0,True
+hs4_n4.qasm,4,Gate Insertion,0.01,0.97,97.9,1,1,True
+hs4_n4.qasm,4,Gate Deletion,0.01,0.985,96.69,1,1,True
+hs4_n4.qasm,4,Gate Substitution,0.01,0.655,98.63,1,1,True
+hs4_n4.qasm,4,Multiple Gate Insertion,0.01,0.57,99.07,1,1,True
+hs4_n4.qasm,4,Normal,0.02,0.365,62.49,0,1,False
+hs4_n4.qasm,4,Gate Insertion,0.02,0.95,98.37,1,1,True
+hs4_n4.qasm,4,Gate Deletion,0.02,0.97,97.43,1,1,True
+hs4_n4.qasm,4,Gate Substitution,0.02,0.64,98.94,1,1,True
+hs4_n4.qasm,4,Multiple Gate Insertion,0.02,0.64,99.28,1,1,True
+hs4_n4.qasm,4,Normal,0.03,0.465,87.27,0,1,False
+hs4_n4.qasm,4,Gate Insertion,0.03,0.925,98.37,1,1,True
+hs4_n4.qasm,4,Gate Deletion,0.03,0.925,97.43,1,1,True
+hs4_n4.qasm,4,Gate Substitution,0.03,0.62,98.94,1,1,True
+hs4_n4.qasm,4,Multiple Gate Insertion,0.03,0.76,99.28,1,1,True
+hs4_n4.qasm,4,Normal,0.04,0.605,96.08,0,1,False
+hs4_n4.qasm,4,Gate Insertion,0.04,0.88,98.37,1,1,True
+hs4_n4.qasm,4,Gate Deletion,0.04,0.94,97.43,1,1,True
+hs4_n4.qasm,4,Gate Substitution,0.04,0.755,98.94,1,1,True
+hs4_n4.qasm,4,Multiple Gate Insertion,0.04,0.735,99.28,1,1,True
+hs4_n4.qasm,4,Normal,0.05,0.665,96.08,0,1,False
+hs4_n4.qasm,4,Gate Insertion,0.05,0.92,98.37,1,1,True
+hs4_n4.qasm,4,Gate Deletion,0.05,0.91,97.43,1,1,True
+hs4_n4.qasm,4,Gate Substitution,0.05,0.775,98.94,1,1,True
+hs4_n4.qasm,4,Multiple Gate Insertion,0.05,0.775,99.28,1,1,True
+inverseqft_n4.qasm,4,Normal,0.005,0.015,3.55,0,0,True
+inverseqft_n4.qasm,4,Normal,0.01,0.045,3.9,0,0,True
+inverseqft_n4.qasm,4,Normal,0.02,0.065,4.28,0,0,True
+inverseqft_n4.qasm,4,Normal,0.03,0.17,25.29,0,0,True
+inverseqft_n4.qasm,4,Normal,0.04,0.15,14.61,0,0,True
+inverseqft_n4.qasm,4,Normal,0.05,0.17,25.29,0,0,True
+ising_n10.qasm,10,Normal,0.005,0.775,40.23,0,0,True
+ising_n10.qasm,10,Gate Insertion,0.005,0.795,89.56,1,1,True
+ising_n10.qasm,10,Gate Deletion,0.005,0.75,87.72,1,1,True
+ising_n10.qasm,10,Gate Substitution,0.005,0.76,86.06,1,1,True
+ising_n10.qasm,10,Multiple Gate Insertion,0.005,0.89,91.97,1,1,True
+ising_n10.qasm,10,Normal,0.01,0.815,38.69,0,0,True
+ising_n10.qasm,10,Gate Insertion,0.01,0.87,88.97,1,1,True
+ising_n10.qasm,10,Gate Deletion,0.01,0.795,87.73,1,1,True
+ising_n10.qasm,10,Gate Substitution,0.01,0.845,85.27,1,1,True
+ising_n10.qasm,10,Multiple Gate Insertion,0.01,0.87,91.49,1,1,True
+ising_n10.qasm,10,Normal,0.02,0.83,37.39,0,0,True
+ising_n10.qasm,10,Gate Insertion,0.02,0.845,89.4,1,1,True
+ising_n10.qasm,10,Gate Deletion,0.02,0.85,88.68,1,1,True
+ising_n10.qasm,10,Gate Substitution,0.02,0.915,84.56,1,1,True
+ising_n10.qasm,10,Multiple Gate Insertion,0.02,0.895,91.05,1,1,True
+ising_n10.qasm,10,Normal,0.03,0.905,37.39,0,0,True
+ising_n10.qasm,10,Gate Insertion,0.03,0.905,89.41,1,1,True
+ising_n10.qasm,10,Gate Deletion,0.03,0.905,88.68,1,1,True
+ising_n10.qasm,10,Gate Substitution,0.03,0.885,84.56,1,1,True
+ising_n10.qasm,10,Multiple Gate Insertion,0.03,0.905,91.05,1,1,True
+ising_n10.qasm,10,Normal,0.04,0.9,37.39,0,0,True
+ising_n10.qasm,10,Gate Insertion,0.04,0.905,89.41,1,1,True
+ising_n10.qasm,10,Gate Deletion,0.04,0.9,88.68,1,1,True
+ising_n10.qasm,10,Gate Substitution,0.04,0.91,84.56,1,1,True
+ising_n10.qasm,10,Multiple Gate Insertion,0.04,0.895,91.05,1,1,True
+ising_n10.qasm,10,Normal,0.05,0.9,37.39,0,0,True
+ising_n10.qasm,10,Gate Insertion,0.05,0.9,89.41,1,1,True
+ising_n10.qasm,10,Gate Deletion,0.05,0.895,88.68,1,1,True
+ising_n10.qasm,10,Gate Substitution,0.05,0.885,84.56,1,1,True
+ising_n10.qasm,10,Multiple Gate Insertion,0.05,0.885,91.05,1,1,True
+iswap_n2.qasm,2,Normal,0.005,0.03,5.15,0,0,True
+iswap_n2.qasm,2,Gate Insertion,0.005,0.98,99.52,1,1,True
+iswap_n2.qasm,2,Gate Deletion,0.005,0.98,98.82,1,1,True
+iswap_n2.qasm,2,Gate Substitution,0.005,0.57,98.82,1,1,True
+iswap_n2.qasm,2,Multiple Gate Insertion,0.005,0.995,98.82,1,1,True
+iswap_n2.qasm,2,Normal,0.01,0.08,6.01,0,0,True
+iswap_n2.qasm,2,Gate Insertion,0.01,0.98,99.53,1,1,True
+iswap_n2.qasm,2,Gate Deletion,0.01,0.985,98.84,1,1,True
+iswap_n2.qasm,2,Gate Substitution,0.01,0.545,98.84,1,1,True
+iswap_n2.qasm,2,Multiple Gate Insertion,0.01,0.96,98.84,1,1,True
+iswap_n2.qasm,2,Normal,0.02,0.135,20.07,0,0,True
+iswap_n2.qasm,2,Gate Insertion,0.02,0.945,99.64,1,1,True
+iswap_n2.qasm,2,Gate Deletion,0.02,0.955,99.11,1,1,True
+iswap_n2.qasm,2,Gate Substitution,0.02,0.535,99.11,1,1,True
+iswap_n2.qasm,2,Multiple Gate Insertion,0.02,0.955,99.11,1,1,True
+iswap_n2.qasm,2,Normal,0.03,0.12,10.58,0,0,True
+iswap_n2.qasm,2,Gate Insertion,0.03,0.945,99.64,1,1,True
+iswap_n2.qasm,2,Gate Deletion,0.03,0.95,99.11,1,1,True
+iswap_n2.qasm,2,Gate Substitution,0.03,0.54,99.11,1,1,True
+iswap_n2.qasm,2,Multiple Gate Insertion,0.03,0.92,99.11,1,1,True
+iswap_n2.qasm,2,Normal,0.04,0.225,50.9,0,1,False
+iswap_n2.qasm,2,Gate Insertion,0.04,0.91,99.64,1,1,True
+iswap_n2.qasm,2,Gate Deletion,0.04,0.915,99.11,1,1,True
+iswap_n2.qasm,2,Gate Substitution,0.04,0.545,99.11,1,1,True
+iswap_n2.qasm,2,Multiple Gate Insertion,0.04,0.93,99.11,1,1,True
+iswap_n2.qasm,2,Normal,0.05,0.31,80.85,0,1,False
+iswap_n2.qasm,2,Gate Insertion,0.05,0.93,99.64,1,1,True
+iswap_n2.qasm,2,Gate Deletion,0.05,0.9,99.11,1,1,True
+iswap_n2.qasm,2,Gate Substitution,0.05,0.59,99.11,1,1,True
+iswap_n2.qasm,2,Multiple Gate Insertion,0.05,0.92,99.11,1,1,True
+linearsolver_n3.qasm,3,Normal,0.005,0.095,5.8,0,0,True
+linearsolver_n3.qasm,3,Gate Insertion,0.005,0.98,98.13,1,1,True
+linearsolver_n3.qasm,3,Gate Deletion,0.005,0.055,4.3,1,0,False
+linearsolver_n3.qasm,3,Gate Substitution,0.005,0.475,97.73,1,1,True
+linearsolver_n3.qasm,3,Multiple Gate Insertion,0.005,0.835,99.23,1,1,True
+linearsolver_n3.qasm,3,Normal,0.01,0.095,6.36,0,0,True
+linearsolver_n3.qasm,3,Gate Insertion,0.01,0.96,98.18,1,1,True
+linearsolver_n3.qasm,3,Gate Deletion,0.01,0.145,10.71,1,0,False
+linearsolver_n3.qasm,3,Gate Substitution,0.01,0.52,98.18,1,1,True
+linearsolver_n3.qasm,3,Multiple Gate Insertion,0.01,0.825,99.25,1,1,True
+linearsolver_n3.qasm,3,Normal,0.02,0.205,14.23,0,0,True
+linearsolver_n3.qasm,3,Gate Insertion,0.02,0.9,98.59,1,1,True
+linearsolver_n3.qasm,3,Gate Deletion,0.02,0.19,14.23,1,0,False
+linearsolver_n3.qasm,3,Gate Substitution,0.02,0.555,98.59,1,1,True
+linearsolver_n3.qasm,3,Multiple Gate Insertion,0.02,0.815,99.42,1,1,True
+linearsolver_n3.qasm,3,Normal,0.03,0.305,65.19,0,1,False
+linearsolver_n3.qasm,3,Gate Insertion,0.03,0.855,98.59,1,1,True
+linearsolver_n3.qasm,3,Gate Deletion,0.03,0.29,65.19,1,1,True
+linearsolver_n3.qasm,3,Gate Substitution,0.03,0.59,98.59,1,1,True
+linearsolver_n3.qasm,3,Multiple Gate Insertion,0.03,0.765,99.42,1,1,True
+linearsolver_n3.qasm,3,Normal,0.04,0.385,84.11,0,1,False
+linearsolver_n3.qasm,3,Gate Insertion,0.04,0.845,98.59,1,1,True
+linearsolver_n3.qasm,3,Gate Deletion,0.04,0.37,83.52,1,1,True
+linearsolver_n3.qasm,3,Gate Substitution,0.04,0.645,98.59,1,1,True
+linearsolver_n3.qasm,3,Multiple Gate Insertion,0.04,0.775,99.42,1,1,True
+linearsolver_n3.qasm,3,Normal,0.05,0.435,91.62,0,1,False
+linearsolver_n3.qasm,3,Gate Insertion,0.05,0.84,98.59,1,1,True
+linearsolver_n3.qasm,3,Gate Deletion,0.05,0.385,84.11,1,1,True
+linearsolver_n3.qasm,3,Gate Substitution,0.05,0.6,98.59,1,1,True
+linearsolver_n3.qasm,3,Multiple Gate Insertion,0.05,0.77,99.42,1,1,True
+lpn_n5.qasm,5,Normal,0.005,0.055,4.12,0,0,True
+lpn_n5.qasm,5,Gate Insertion,0.005,0.5,98.64,1,1,True
+lpn_n5.qasm,5,Gate Deletion,0.005,0.52,98.77,1,1,True
+lpn_n5.qasm,5,Gate Substitution,0.005,0.565,98.79,1,1,True
+lpn_n5.qasm,5,Multiple Gate Insertion,0.005,0.995,99.44,1,1,True
+lpn_n5.qasm,5,Normal,0.01,0.085,4.53,0,0,True
+lpn_n5.qasm,5,Gate Insertion,0.01,0.555,98.67,1,1,True
+lpn_n5.qasm,5,Gate Deletion,0.01,0.555,98.8,1,1,True
+lpn_n5.qasm,5,Gate Substitution,0.01,0.535,98.81,1,1,True
+lpn_n5.qasm,5,Multiple Gate Insertion,0.01,0.985,99.46,1,1,True
+lpn_n5.qasm,5,Normal,0.02,0.135,15.22,0,0,True
+lpn_n5.qasm,5,Gate Insertion,0.02,0.585,98.97,1,1,True
+lpn_n5.qasm,5,Gate Deletion,0.02,0.54,99.07,1,1,True
+lpn_n5.qasm,5,Gate Substitution,0.02,0.505,99.08,1,1,True
+lpn_n5.qasm,5,Multiple Gate Insertion,0.02,0.975,99.58,1,1,True
+lpn_n5.qasm,5,Normal,0.03,0.17,27.61,0,0,True
+lpn_n5.qasm,5,Gate Insertion,0.03,0.595,98.97,1,1,True
+lpn_n5.qasm,5,Gate Deletion,0.03,0.555,99.07,1,1,True
+lpn_n5.qasm,5,Gate Substitution,0.03,0.55,99.08,1,1,True
+lpn_n5.qasm,5,Multiple Gate Insertion,0.03,0.975,99.58,1,1,True
+lpn_n5.qasm,5,Normal,0.04,0.25,42.57,0,0,True
+lpn_n5.qasm,5,Gate Insertion,0.04,0.59,98.97,1,1,True
+lpn_n5.qasm,5,Gate Deletion,0.04,0.63,99.07,1,1,True
+lpn_n5.qasm,5,Gate Substitution,0.04,0.565,99.08,1,1,True
+lpn_n5.qasm,5,Multiple Gate Insertion,0.04,0.955,99.58,1,1,True
+lpn_n5.qasm,5,Normal,0.05,0.27,42.57,0,0,True
+lpn_n5.qasm,5,Gate Insertion,0.05,0.68,98.97,1,1,True
+lpn_n5.qasm,5,Gate Deletion,0.05,0.585,99.07,1,1,True
+lpn_n5.qasm,5,Gate Substitution,0.05,0.585,99.08,1,1,True
+lpn_n5.qasm,5,Multiple Gate Insertion,0.05,0.975,99.58,1,1,True
+qaoa_n3.qasm,3,Normal,0.005,0.065,10.03,0,0,True
+qaoa_n3.qasm,3,Gate Insertion,0.005,0.32,93.04,1,1,True
+qaoa_n3.qasm,3,Gate Deletion,0.005,0.335,94.52,1,1,True
+qaoa_n3.qasm,3,Gate Substitution,0.005,0.165,99.42,1,1,True
+qaoa_n3.qasm,3,Multiple Gate Insertion,0.005,0.075,99.8,1,1,True
+qaoa_n3.qasm,3,Normal,0.01,0.085,10.4,0,0,True
+qaoa_n3.qasm,3,Gate Insertion,0.01,0.29,91.76,1,1,True
+qaoa_n3.qasm,3,Gate Deletion,0.01,0.355,94.39,1,1,True
+qaoa_n3.qasm,3,Gate Substitution,0.01,0.15,99.3,1,1,True
+qaoa_n3.qasm,3,Multiple Gate Insertion,0.01,0.08,99.77,1,1,True
+qaoa_n3.qasm,3,Normal,0.02,0.14,36.47,0,0,True
+qaoa_n3.qasm,3,Gate Insertion,0.02,0.295,86.88,1,1,True
+qaoa_n3.qasm,3,Gate Deletion,0.02,0.295,86.88,1,1,True
+qaoa_n3.qasm,3,Gate Substitution,0.02,0.195,98.8,1,1,True
+qaoa_n3.qasm,3,Multiple Gate Insertion,0.02,0.115,99.46,1,1,True
+qaoa_n3.qasm,3,Normal,0.03,0.11,14.49,0,0,True
+qaoa_n3.qasm,3,Gate Insertion,0.03,0.305,86.88,1,1,True
+qaoa_n3.qasm,3,Gate Deletion,0.03,0.22,61.92,1,1,True
+qaoa_n3.qasm,3,Gate Substitution,0.03,0.16,98.79,1,1,True
+qaoa_n3.qasm,3,Multiple Gate Insertion,0.03,0.145,99.42,1,1,True
+qaoa_n3.qasm,3,Normal,0.04,0.145,36.47,0,0,True
+qaoa_n3.qasm,3,Gate Insertion,0.04,0.22,61.92,1,1,True
+qaoa_n3.qasm,3,Gate Deletion,0.04,0.295,86.88,1,1,True
+qaoa_n3.qasm,3,Gate Substitution,0.04,0.205,98.8,1,1,True
+qaoa_n3.qasm,3,Multiple Gate Insertion,0.04,0.14,99.42,1,1,True
+qaoa_n3.qasm,3,Normal,0.05,0.185,45.55,0,0,True
+qaoa_n3.qasm,3,Gate Insertion,0.05,0.2,45.55,1,0,False
+qaoa_n3.qasm,3,Gate Deletion,0.05,0.27,61.92,1,1,True
+qaoa_n3.qasm,3,Gate Substitution,0.05,0.235,97.96,1,1,True
+qaoa_n3.qasm,3,Multiple Gate Insertion,0.05,0.19,99.18,1,1,True
+qaoa_n6.qasm,6,Normal,0.005,0.305,30.69,0,0,True
+qaoa_n6.qasm,6,Gate Insertion,0.005,0.475,94.31,1,1,True
+qaoa_n6.qasm,6,Gate Deletion,0.005,0.39,39.06,1,0,False
+qaoa_n6.qasm,6,Gate Substitution,0.005,0.395,91.29,1,1,True
+qaoa_n6.qasm,6,Multiple Gate Insertion,0.005,0.475,99.74,1,1,True
+qaoa_n6.qasm,6,Normal,0.01,0.375,33.18,0,0,True
+qaoa_n6.qasm,6,Gate Insertion,0.01,0.425,89.31,1,1,True
+qaoa_n6.qasm,6,Gate Deletion,0.01,0.385,33.18,1,0,False
+qaoa_n6.qasm,6,Gate Substitution,0.01,0.35,87.26,1,1,True
+qaoa_n6.qasm,6,Multiple Gate Insertion,0.01,0.41,99.57,1,1,True
+qaoa_n6.qasm,6,Normal,0.02,0.41,40.51,0,0,True
+qaoa_n6.qasm,6,Gate Insertion,0.02,0.385,80.46,1,1,True
+qaoa_n6.qasm,6,Gate Deletion,0.02,0.37,31.27,1,0,False
+qaoa_n6.qasm,6,Gate Substitution,0.02,0.37,80.28,1,1,True
+qaoa_n6.qasm,6,Multiple Gate Insertion,0.02,0.395,99.45,1,1,True
+qaoa_n6.qasm,6,Normal,0.03,0.45,53.87,0,1,False
+qaoa_n6.qasm,6,Gate Insertion,0.03,0.43,86.65,1,1,True
+qaoa_n6.qasm,6,Gate Deletion,0.03,0.39,32.8,1,0,False
+qaoa_n6.qasm,6,Gate Substitution,0.03,0.4,84.91,1,1,True
+qaoa_n6.qasm,6,Multiple Gate Insertion,0.03,0.45,99.62,1,1,True
+qaoa_n6.qasm,6,Normal,0.04,0.39,32.8,0,0,True
+qaoa_n6.qasm,6,Gate Insertion,0.04,0.4,86.65,1,1,True
+qaoa_n6.qasm,6,Gate Deletion,0.04,0.36,31.59,1,0,False
+qaoa_n6.qasm,6,Gate Substitution,0.04,0.44,85.68,1,1,True
+qaoa_n6.qasm,6,Multiple Gate Insertion,0.04,0.345,99.44,1,1,True
+qaoa_n6.qasm,6,Normal,0.05,0.4,40.51,0,0,True
+qaoa_n6.qasm,6,Gate Insertion,0.05,0.395,86.65,1,1,True
+qaoa_n6.qasm,6,Gate Deletion,0.05,0.365,31.59,1,0,False
+qaoa_n6.qasm,6,Gate Substitution,0.05,0.45,90.61,1,1,True
+qaoa_n6.qasm,6,Multiple Gate Insertion,0.05,0.4,99.45,1,1,True
+qec_en_n5.qasm,5,Normal,0.005,0.09,11.94,0,0,True
+qec_en_n5.qasm,5,Gate Insertion,0.005,0.995,99.13,1,1,True
+qec_en_n5.qasm,5,Gate Deletion,0.005,0.345,83.92,1,1,True
+qec_en_n5.qasm,5,Gate Substitution,0.005,0.535,99.16,1,1,True
+qec_en_n5.qasm,5,Multiple Gate Insertion,0.005,1.0,97.07,1,1,True
+qec_en_n5.qasm,5,Normal,0.01,0.185,15.91,0,0,True
+qec_en_n5.qasm,5,Gate Insertion,0.01,0.99,99.13,1,1,True
+qec_en_n5.qasm,5,Gate Deletion,0.01,0.445,93.76,1,1,True
+qec_en_n5.qasm,5,Gate Substitution,0.01,0.555,99.17,1,1,True
+qec_en_n5.qasm,5,Multiple Gate Insertion,0.01,0.995,97.07,1,1,True
+qec_en_n5.qasm,5,Normal,0.02,0.34,52.89,0,1,False
+qec_en_n5.qasm,5,Gate Insertion,0.02,0.985,99.33,1,1,True
+qec_en_n5.qasm,5,Gate Deletion,0.02,0.485,98.07,1,1,True
+qec_en_n5.qasm,5,Gate Substitution,0.02,0.64,99.36,1,1,True
+qec_en_n5.qasm,5,Multiple Gate Insertion,0.02,0.995,97.73,1,1,True
+qec_en_n5.qasm,5,Normal,0.03,0.43,85.74,0,1,False
+qec_en_n5.qasm,5,Gate Insertion,0.03,0.98,99.33,1,1,True
+qec_en_n5.qasm,5,Gate Deletion,0.03,0.55,98.07,1,1,True
+qec_en_n5.qasm,5,Gate Substitution,0.03,0.705,99.36,1,1,True
+qec_en_n5.qasm,5,Multiple Gate Insertion,0.03,0.985,97.73,1,1,True
+qec_en_n5.qasm,5,Normal,0.04,0.605,97.7,0,1,False
+qec_en_n5.qasm,5,Gate Insertion,0.04,0.98,99.33,1,1,True
+qec_en_n5.qasm,5,Gate Deletion,0.04,0.64,98.07,1,1,True
+qec_en_n5.qasm,5,Gate Substitution,0.04,0.77,99.36,1,1,True
+qec_en_n5.qasm,5,Multiple Gate Insertion,0.04,0.975,97.73,1,1,True
+qec_en_n5.qasm,5,Normal,0.05,0.69,97.7,0,1,False
+qec_en_n5.qasm,5,Gate Insertion,0.05,0.96,99.33,1,1,True
+qec_en_n5.qasm,5,Gate Deletion,0.05,0.615,98.07,1,1,True
+qec_en_n5.qasm,5,Gate Substitution,0.05,0.805,99.36,1,1,True
+qec_en_n5.qasm,5,Multiple Gate Insertion,0.05,0.965,97.73,1,1,True
+qft_n4.qasm,4,Normal,0.005,0.11,12.37,0,0,True
+qft_n4.qasm,4,Gate Insertion,0.005,0.135,99.04,1,1,True
+qft_n4.qasm,4,Gate Deletion,0.005,0.175,45.22,1,0,False
+qft_n4.qasm,4,Gate Substitution,0.005,0.205,99.35,1,1,True
+qft_n4.qasm,4,Multiple Gate Insertion,0.005,0.105,95.21,1,1,True
+qft_n4.qasm,4,Normal,0.01,0.23,65.8,0,1,False
+qft_n4.qasm,4,Gate Insertion,0.01,0.145,98.98,1,1,True
+qft_n4.qasm,4,Gate Deletion,0.01,0.15,45.32,1,0,False
+qft_n4.qasm,4,Gate Substitution,0.01,0.14,98.91,1,1,True
+qft_n4.qasm,4,Multiple Gate Insertion,0.01,0.15,98.33,1,1,True
+qft_n4.qasm,4,Normal,0.02,0.145,25.01,0,0,True
+qft_n4.qasm,4,Gate Insertion,0.02,0.15,98.72,1,1,True
+qft_n4.qasm,4,Gate Deletion,0.02,0.14,39.8,1,0,False
+qft_n4.qasm,4,Gate Substitution,0.02,0.105,98.16,1,1,True
+qft_n4.qasm,4,Multiple Gate Insertion,0.02,0.135,97.92,1,1,True
+qft_n4.qasm,4,Normal,0.03,0.18,37.27,0,0,True
+qft_n4.qasm,4,Gate Insertion,0.03,0.15,98.72,1,1,True
+qft_n4.qasm,4,Gate Deletion,0.03,0.19,37.27,1,0,False
+qft_n4.qasm,4,Gate Substitution,0.03,0.125,98.64,1,1,True
+qft_n4.qasm,4,Multiple Gate Insertion,0.03,0.185,98.3,1,1,True
+qft_n4.qasm,4,Normal,0.04,0.165,37.27,0,0,True
+qft_n4.qasm,4,Gate Insertion,0.04,0.175,98.66,1,1,True
+qft_n4.qasm,4,Gate Deletion,0.04,0.165,37.27,1,0,False
+qft_n4.qasm,4,Gate Substitution,0.04,0.115,98.11,1,1,True
+qft_n4.qasm,4,Multiple Gate Insertion,0.04,0.125,97.92,1,1,True
+qft_n4.qasm,4,Normal,0.05,0.15,25.01,0,0,True
+qft_n4.qasm,4,Gate Insertion,0.05,0.155,98.72,1,1,True
+qft_n4.qasm,4,Gate Deletion,0.05,0.13,39.8,1,0,False
+qft_n4.qasm,4,Gate Substitution,0.05,0.105,98.16,1,1,True
+qft_n4.qasm,4,Multiple Gate Insertion,0.05,0.14,97.92,1,1,True
+qpe_n9.qasm,9,Normal,0.005,0.24,52.68,0,1,False
+qpe_n9.qasm,9,Gate Insertion,0.005,0.27,97.87,1,1,True
+qpe_n9.qasm,9,Gate Deletion,0.005,0.465,97.45,1,1,True
+qpe_n9.qasm,9,Gate Substitution,0.005,0.45,97.45,1,1,True
+qpe_n9.qasm,9,Multiple Gate Insertion,0.005,0.255,98.58,1,1,True
+qpe_n9.qasm,9,Normal,0.01,0.24,45.52,0,0,True
+qpe_n9.qasm,9,Gate Insertion,0.01,0.26,97.32,1,1,True
+qpe_n9.qasm,9,Gate Deletion,0.01,0.49,97.83,1,1,True
+qpe_n9.qasm,9,Gate Substitution,0.01,0.355,82.98,1,1,True
+qpe_n9.qasm,9,Multiple Gate Insertion,0.01,0.305,97.28,1,1,True
+qpe_n9.qasm,9,Normal,0.02,0.295,66.3,0,1,False
+qpe_n9.qasm,9,Gate Insertion,0.02,0.295,94.71,1,1,True
+qpe_n9.qasm,9,Gate Deletion,0.02,0.43,90.66,1,1,True
+qpe_n9.qasm,9,Gate Substitution,0.02,0.45,94.79,1,1,True
+qpe_n9.qasm,9,Multiple Gate Insertion,0.02,0.325,95.62,1,1,True
+qpe_n9.qasm,9,Normal,0.03,0.255,32.57,0,0,True
+qpe_n9.qasm,9,Gate Insertion,0.03,0.23,96.79,1,1,True
+qpe_n9.qasm,9,Gate Deletion,0.03,0.445,91.34,1,1,True
+qpe_n9.qasm,9,Gate Substitution,0.03,0.465,94.79,1,1,True
+qpe_n9.qasm,9,Multiple Gate Insertion,0.03,0.315,95.62,1,1,True
+qpe_n9.qasm,9,Normal,0.04,0.29,66.3,0,1,False
+qpe_n9.qasm,9,Gate Insertion,0.04,0.27,95.46,1,1,True
+qpe_n9.qasm,9,Gate Deletion,0.04,0.42,90.66,1,1,True
+qpe_n9.qasm,9,Gate Substitution,0.04,0.37,82.52,1,1,True
+qpe_n9.qasm,9,Multiple Gate Insertion,0.04,0.295,95.62,1,1,True
+qpe_n9.qasm,9,Normal,0.05,0.325,66.3,0,1,False
+qpe_n9.qasm,9,Gate Insertion,0.05,0.25,95.46,1,1,True
+qpe_n9.qasm,9,Gate Deletion,0.05,0.42,90.66,1,1,True
+qpe_n9.qasm,9,Gate Substitution,0.05,0.455,94.79,1,1,True
+qpe_n9.qasm,9,Multiple Gate Insertion,0.05,0.275,96.8,1,1,True
+qrng_n4.qasm,4,Normal,0.005,0.145,26.12,0,0,True
+qrng_n4.qasm,4,Gate Insertion,0.005,0.485,98.76,1,1,True
+qrng_n4.qasm,4,Gate Deletion,0.005,0.515,98.76,1,1,True
+qrng_n4.qasm,4,Gate Substitution,0.005,0.485,98.82,1,1,True
+qrng_n4.qasm,4,Multiple Gate Insertion,0.005,0.495,98.82,1,1,True
+qrng_n4.qasm,4,Normal,0.01,0.165,41.44,0,0,True
+qrng_n4.qasm,4,Gate Insertion,0.01,0.49,98.78,1,1,True
+qrng_n4.qasm,4,Gate Deletion,0.01,0.515,98.78,1,1,True
+qrng_n4.qasm,4,Gate Substitution,0.01,0.485,98.84,1,1,True
+qrng_n4.qasm,4,Multiple Gate Insertion,0.01,0.48,98.52,1,1,True
+qrng_n4.qasm,4,Normal,0.02,0.155,19.26,0,0,True
+qrng_n4.qasm,4,Gate Insertion,0.02,0.48,97.3,1,1,True
+qrng_n4.qasm,4,Gate Deletion,0.02,0.515,99.06,1,1,True
+qrng_n4.qasm,4,Gate Substitution,0.02,0.47,97.43,1,1,True
+qrng_n4.qasm,4,Multiple Gate Insertion,0.02,0.485,99.11,1,1,True
+qrng_n4.qasm,4,Normal,0.03,0.24,49.63,0,0,True
+qrng_n4.qasm,4,Gate Insertion,0.03,0.465,97.3,1,1,True
+qrng_n4.qasm,4,Gate Deletion,0.03,0.515,99.06,1,1,True
+qrng_n4.qasm,4,Gate Substitution,0.03,0.455,97.43,1,1,True
+qrng_n4.qasm,4,Multiple Gate Insertion,0.03,0.48,97.43,1,1,True
+qrng_n4.qasm,4,Normal,0.04,0.155,19.26,0,0,True
+qrng_n4.qasm,4,Gate Insertion,0.04,0.435,95.4,1,1,True
+qrng_n4.qasm,4,Gate Deletion,0.04,0.52,99.06,1,1,True
+qrng_n4.qasm,4,Gate Substitution,0.04,0.465,97.43,1,1,True
+qrng_n4.qasm,4,Multiple Gate Insertion,0.04,0.46,97.43,1,1,True
+qrng_n4.qasm,4,Normal,0.05,0.185,33.63,0,0,True
+qrng_n4.qasm,4,Gate Insertion,0.05,0.465,97.3,1,1,True
+qrng_n4.qasm,4,Gate Deletion,0.05,0.515,99.06,1,1,True
+qrng_n4.qasm,4,Gate Substitution,0.05,0.455,97.43,1,1,True
+qrng_n4.qasm,4,Multiple Gate Insertion,0.05,0.485,99.11,1,1,True
+quantumwalks_n2.qasm,2,Normal,0.005,0.055,4.9,0,0,True
+quantumwalks_n2.qasm,2,Gate Insertion,0.005,0.965,99.49,1,1,True
+quantumwalks_n2.qasm,2,Gate Deletion,0.005,0.94,98.76,1,1,True
+quantumwalks_n2.qasm,2,Gate Substitution,0.005,0.135,98.06,1,1,True
+quantumwalks_n2.qasm,2,Multiple Gate Insertion,0.005,0.52,99.55,1,1,True
+quantumwalks_n2.qasm,2,Normal,0.01,0.09,8.25,0,0,True
+quantumwalks_n2.qasm,2,Gate Insertion,0.01,0.95,99.5,1,1,True
+quantumwalks_n2.qasm,2,Gate Deletion,0.01,0.915,98.78,1,1,True
+quantumwalks_n2.qasm,2,Gate Substitution,0.01,0.22,98.19,1,1,True
+quantumwalks_n2.qasm,2,Multiple Gate Insertion,0.01,0.565,99.56,1,1,True
+quantumwalks_n2.qasm,2,Normal,0.02,0.14,19.26,0,0,True
+quantumwalks_n2.qasm,2,Gate Insertion,0.02,0.91,99.62,1,1,True
+quantumwalks_n2.qasm,2,Gate Deletion,0.02,0.945,99.06,1,1,True
+quantumwalks_n2.qasm,2,Gate Substitution,0.02,0.29,96.13,1,1,True
+quantumwalks_n2.qasm,2,Multiple Gate Insertion,0.02,0.515,99.66,1,1,True
+quantumwalks_n2.qasm,2,Normal,0.03,0.18,33.63,0,0,True
+quantumwalks_n2.qasm,2,Gate Insertion,0.03,0.91,99.62,1,1,True
+quantumwalks_n2.qasm,2,Gate Deletion,0.03,0.89,99.06,1,1,True
+quantumwalks_n2.qasm,2,Gate Substitution,0.03,0.325,96.13,1,1,True
+quantumwalks_n2.qasm,2,Multiple Gate Insertion,0.03,0.575,99.66,1,1,True
+quantumwalks_n2.qasm,2,Normal,0.04,0.275,49.63,0,0,True
+quantumwalks_n2.qasm,2,Gate Insertion,0.04,0.855,99.62,1,1,True
+quantumwalks_n2.qasm,2,Gate Deletion,0.04,0.91,99.06,1,1,True
+quantumwalks_n2.qasm,2,Gate Substitution,0.04,0.435,98.32,1,1,True
+quantumwalks_n2.qasm,2,Multiple Gate Insertion,0.04,0.505,99.66,1,1,True
+quantumwalks_n2.qasm,2,Normal,0.05,0.315,80.05,0,1,False
+quantumwalks_n2.qasm,2,Gate Insertion,0.05,0.855,99.62,1,1,True
+quantumwalks_n2.qasm,2,Gate Deletion,0.05,0.855,99.06,1,1,True
+quantumwalks_n2.qasm,2,Gate Substitution,0.05,0.4,97.82,1,1,True
+quantumwalks_n2.qasm,2,Multiple Gate Insertion,0.05,0.62,99.66,1,1,True
+sat_n7.qasm,7,Normal,0.005,0.065,10.44,0,0,True
+sat_n7.qasm,7,Gate Insertion,0.005,0.105,95.91,1,1,True
+sat_n7.qasm,7,Gate Deletion,0.005,0.72,98.03,1,1,True
+sat_n7.qasm,7,Gate Substitution,0.005,0.57,98.03,1,1,True
+sat_n7.qasm,7,Multiple Gate Insertion,0.005,0.09,13.2,1,0,False
+sat_n7.qasm,7,Normal,0.01,0.12,13.68,0,0,True
+sat_n7.qasm,7,Gate Insertion,0.01,0.1,94.91,1,1,True
+sat_n7.qasm,7,Gate Deletion,0.01,0.72,97.96,1,1,True
+sat_n7.qasm,7,Gate Substitution,0.01,0.52,97.96,1,1,True
+sat_n7.qasm,7,Multiple Gate Insertion,0.01,0.135,13.19,1,0,False
+sat_n7.qasm,7,Normal,0.02,0.175,15.07,0,0,True
+sat_n7.qasm,7,Gate Insertion,0.02,0.19,94.53,1,1,True
+sat_n7.qasm,7,Gate Deletion,0.02,0.675,98.32,1,1,True
+sat_n7.qasm,7,Gate Substitution,0.02,0.62,98.32,1,1,True
+sat_n7.qasm,7,Multiple Gate Insertion,0.02,0.205,15.07,1,0,False
+sat_n7.qasm,7,Normal,0.03,0.255,31.68,0,0,True
+sat_n7.qasm,7,Gate Insertion,0.03,0.275,93.94,1,1,True
+sat_n7.qasm,7,Gate Deletion,0.03,0.67,98.32,1,1,True
+sat_n7.qasm,7,Gate Substitution,0.03,0.565,98.32,1,1,True
+sat_n7.qasm,7,Multiple Gate Insertion,0.03,0.28,31.68,1,0,False
+sat_n7.qasm,7,Normal,0.04,0.3,65.39,0,1,False
+sat_n7.qasm,7,Gate Insertion,0.04,0.26,93.94,1,1,True
+sat_n7.qasm,7,Gate Deletion,0.04,0.66,98.32,1,1,True
+sat_n7.qasm,7,Gate Substitution,0.04,0.59,98.32,1,1,True
+sat_n7.qasm,7,Multiple Gate Insertion,0.04,0.235,39.95,1,0,False
+sat_n7.qasm,7,Normal,0.05,0.42,89.7,0,1,False
+sat_n7.qasm,7,Gate Insertion,0.05,0.34,92.96,1,1,True
+sat_n7.qasm,7,Gate Deletion,0.05,0.61,98.32,1,1,True
+sat_n7.qasm,7,Gate Substitution,0.05,0.565,98.32,1,1,True
+sat_n7.qasm,7,Multiple Gate Insertion,0.05,0.37,77.67,1,1,True
+simon_n6.qasm,6,Normal,0.005,0.19,23.96,0,0,True
+simon_n6.qasm,6,Gate Insertion,0.005,0.975,99.28,1,1,True
+simon_n6.qasm,6,Gate Deletion,0.005,0.465,97.98,1,1,True
+simon_n6.qasm,6,Gate Substitution,0.005,0.98,99.36,1,1,True
+simon_n6.qasm,6,Multiple Gate Insertion,0.005,0.975,99.28,1,1,True
+simon_n6.qasm,6,Normal,0.01,0.195,22.9,0,0,True
+simon_n6.qasm,6,Gate Insertion,0.01,0.955,99.29,1,1,True
+simon_n6.qasm,6,Gate Deletion,0.01,0.565,98.28,1,1,True
+simon_n6.qasm,6,Gate Substitution,0.01,0.975,99.37,1,1,True
+simon_n6.qasm,6,Multiple Gate Insertion,0.01,0.965,99.29,1,1,True
+simon_n6.qasm,6,Normal,0.02,0.16,12.11,0,0,True
+simon_n6.qasm,6,Gate Insertion,0.02,0.885,99.45,1,1,True
+simon_n6.qasm,6,Gate Deletion,0.02,0.57,98.67,1,1,True
+simon_n6.qasm,6,Gate Substitution,0.02,0.94,99.52,1,1,True
+simon_n6.qasm,6,Multiple Gate Insertion,0.02,0.94,99.45,1,1,True
+simon_n6.qasm,6,Normal,0.03,0.19,19.2,0,0,True
+simon_n6.qasm,6,Gate Insertion,0.03,0.875,99.45,1,1,True
+simon_n6.qasm,6,Gate Deletion,0.03,0.505,98.67,1,1,True
+simon_n6.qasm,6,Gate Substitution,0.03,0.89,99.52,1,1,True
+simon_n6.qasm,6,Multiple Gate Insertion,0.03,0.895,99.45,1,1,True
+simon_n6.qasm,6,Normal,0.04,0.21,19.2,0,0,True
+simon_n6.qasm,6,Gate Insertion,0.04,0.855,99.45,1,1,True
+simon_n6.qasm,6,Gate Deletion,0.04,0.505,98.67,1,1,True
+simon_n6.qasm,6,Gate Substitution,0.04,0.9,99.52,1,1,True
+simon_n6.qasm,6,Multiple Gate Insertion,0.04,0.855,99.45,1,1,True
+simon_n6.qasm,6,Normal,0.05,0.23,48.58,0,0,True
+simon_n6.qasm,6,Gate Insertion,0.05,0.81,99.45,1,1,True
+simon_n6.qasm,6,Gate Deletion,0.05,0.455,96.45,1,1,True
+simon_n6.qasm,6,Gate Substitution,0.05,0.855,99.52,1,1,True
+simon_n6.qasm,6,Multiple Gate Insertion,0.05,0.815,99.45,1,1,True
+teleportation_n3.qasm,3,Normal,0.005,0.075,4.9,0,0,True
+teleportation_n3.qasm,3,Gate Insertion,0.005,0.47,98.62,1,1,True
+teleportation_n3.qasm,3,Gate Deletion,0.005,0.405,96.89,1,1,True
+teleportation_n3.qasm,3,Gate Substitution,0.005,0.3,98.2,1,1,True
+teleportation_n3.qasm,3,Multiple Gate Insertion,0.005,0.46,99.5,1,1,True
+teleportation_n3.qasm,3,Normal,0.01,0.09,8.25,0,0,True
+teleportation_n3.qasm,3,Gate Insertion,0.01,0.465,98.44,1,1,True
+teleportation_n3.qasm,3,Gate Deletion,0.01,0.4,96.5,1,1,True
+teleportation_n3.qasm,3,Gate Substitution,0.01,0.36,98.39,1,1,True
+teleportation_n3.qasm,3,Multiple Gate Insertion,0.01,0.46,99.43,1,1,True
+teleportation_n3.qasm,3,Normal,0.02,0.12,10.1,0,0,True
+teleportation_n3.qasm,3,Gate Insertion,0.02,0.4,94.0,1,1,True
+teleportation_n3.qasm,3,Gate Deletion,0.02,0.39,91.51,1,1,True
+teleportation_n3.qasm,3,Gate Substitution,0.02,0.29,96.13,1,1,True
+teleportation_n3.qasm,3,Multiple Gate Insertion,0.02,0.4,98.05,1,1,True
+teleportation_n3.qasm,3,Normal,0.03,0.095,6.58,0,0,True
+teleportation_n3.qasm,3,Gate Insertion,0.03,0.4,94.0,1,1,True
+teleportation_n3.qasm,3,Gate Deletion,0.03,0.375,90.58,1,1,True
+teleportation_n3.qasm,3,Gate Substitution,0.03,0.295,96.13,1,1,True
+teleportation_n3.qasm,3,Multiple Gate Insertion,0.03,0.395,98.05,1,1,True
+teleportation_n3.qasm,3,Normal,0.04,0.095,6.58,0,0,True
+teleportation_n3.qasm,3,Gate Insertion,0.04,0.36,90.58,1,1,True
+teleportation_n3.qasm,3,Gate Deletion,0.04,0.31,80.05,1,1,True
+teleportation_n3.qasm,3,Gate Substitution,0.04,0.365,97.2,1,1,True
+teleportation_n3.qasm,3,Multiple Gate Insertion,0.04,0.37,97.28,1,1,True
+teleportation_n3.qasm,3,Normal,0.05,0.13,19.26,0,0,True
+teleportation_n3.qasm,3,Gate Insertion,0.05,0.355,85.85,1,1,True
+teleportation_n3.qasm,3,Gate Deletion,0.05,0.295,80.05,1,1,True
+teleportation_n3.qasm,3,Gate Substitution,0.05,0.315,96.13,1,1,True
+teleportation_n3.qasm,3,Multiple Gate Insertion,0.05,0.35,96.55,1,1,True
+toffoli_n3.qasm,3,Normal,0.005,0.045,10.55,0,0,True
+toffoli_n3.qasm,3,Gate Insertion,0.005,0.99,99.25,1,1,True
+toffoli_n3.qasm,3,Gate Deletion,0.005,0.185,73.55,1,1,True
+toffoli_n3.qasm,3,Gate Substitution,0.005,0.555,98.17,1,1,True
+toffoli_n3.qasm,3,Multiple Gate Insertion,0.005,0.98,99.33,1,1,True
+toffoli_n3.qasm,3,Normal,0.01,0.1,11.74,0,0,True
+toffoli_n3.qasm,3,Gate Insertion,0.01,0.995,99.29,1,1,True
+toffoli_n3.qasm,3,Gate Deletion,0.01,0.205,72.88,1,1,True
+toffoli_n3.qasm,3,Gate Substitution,0.01,0.575,98.28,1,1,True
+toffoli_n3.qasm,3,Multiple Gate Insertion,0.01,0.97,99.37,1,1,True
+toffoli_n3.qasm,3,Normal,0.02,0.16,8.51,0,0,True
+toffoli_n3.qasm,3,Gate Insertion,0.02,0.965,99.45,1,1,True
+toffoli_n3.qasm,3,Gate Deletion,0.02,0.295,91.98,1,1,True
+toffoli_n3.qasm,3,Gate Substitution,0.02,0.595,98.67,1,1,True
+toffoli_n3.qasm,3,Multiple Gate Insertion,0.02,0.92,99.52,1,1,True
+toffoli_n3.qasm,3,Normal,0.03,0.255,37.16,0,0,True
+toffoli_n3.qasm,3,Gate Insertion,0.03,0.93,99.45,1,1,True
+toffoli_n3.qasm,3,Gate Deletion,0.03,0.35,95.55,1,1,True
+toffoli_n3.qasm,3,Gate Substitution,0.03,0.6,98.67,1,1,True
+toffoli_n3.qasm,3,Multiple Gate Insertion,0.03,0.94,99.52,1,1,True
+toffoli_n3.qasm,3,Normal,0.04,0.385,87.19,0,1,False
+toffoli_n3.qasm,3,Gate Insertion,0.04,0.925,99.45,1,1,True
+toffoli_n3.qasm,3,Gate Deletion,0.04,0.41,97.82,1,1,True
+toffoli_n3.qasm,3,Gate Substitution,0.04,0.585,98.67,1,1,True
+toffoli_n3.qasm,3,Multiple Gate Insertion,0.04,0.92,99.52,1,1,True
+toffoli_n3.qasm,3,Normal,0.05,0.44,93.36,0,1,False
+toffoli_n3.qasm,3,Gate Insertion,0.05,0.905,99.45,1,1,True
+toffoli_n3.qasm,3,Gate Deletion,0.05,0.54,99.67,1,1,True
+toffoli_n3.qasm,3,Gate Substitution,0.05,0.66,98.67,1,1,True
+toffoli_n3.qasm,3,Multiple Gate Insertion,0.05,0.87,99.52,1,1,True
+variational_n4.qasm,4,Normal,0.005,0.175,17.19,0,0,True
+variational_n4.qasm,4,Gate Insertion,0.005,0.94,93.55,1,1,True
+variational_n4.qasm,4,Gate Deletion,0.005,0.13,13.92,1,0,False
+variational_n4.qasm,4,Gate Substitution,0.005,0.965,98.73,1,1,True
+variational_n4.qasm,4,Multiple Gate Insertion,0.005,0.13,95.36,1,1,True
+variational_n4.qasm,4,Normal,0.01,0.28,30.51,0,0,True
+variational_n4.qasm,4,Gate Insertion,0.01,0.89,93.56,1,1,True
+variational_n4.qasm,4,Gate Deletion,0.01,0.265,33.96,1,0,False
+variational_n4.qasm,4,Gate Substitution,0.01,0.95,98.73,1,1,True
+variational_n4.qasm,4,Multiple Gate Insertion,0.01,0.33,93.05,1,1,True
+variational_n4.qasm,4,Normal,0.02,0.45,76.47,0,1,False
+variational_n4.qasm,4,Gate Insertion,0.02,0.82,94.96,1,1,True
+variational_n4.qasm,4,Gate Deletion,0.02,0.505,97.37,1,1,True
+variational_n4.qasm,4,Gate Substitution,0.02,0.885,99.02,1,1,True
+variational_n4.qasm,4,Multiple Gate Insertion,0.02,0.425,91.68,1,1,True
+variational_n4.qasm,4,Normal,0.03,0.555,94.96,0,1,False
+variational_n4.qasm,4,Gate Insertion,0.03,0.75,94.96,1,1,True
+variational_n4.qasm,4,Gate Deletion,0.03,0.555,97.37,1,1,True
+variational_n4.qasm,4,Gate Substitution,0.03,0.86,99.02,1,1,True
+variational_n4.qasm,4,Multiple Gate Insertion,0.03,0.575,99.04,1,1,True
+variational_n4.qasm,4,Normal,0.04,0.69,94.96,0,1,False
+variational_n4.qasm,4,Gate Insertion,0.04,0.76,94.96,1,1,True
+variational_n4.qasm,4,Gate Deletion,0.04,0.595,97.37,1,1,True
+variational_n4.qasm,4,Gate Substitution,0.04,0.845,99.02,1,1,True
+variational_n4.qasm,4,Multiple Gate Insertion,0.04,0.665,99.02,1,1,True
+variational_n4.qasm,4,Normal,0.05,0.705,94.96,0,1,False
+variational_n4.qasm,4,Gate Insertion,0.05,0.78,94.96,1,1,True
+variational_n4.qasm,4,Gate Deletion,0.05,0.68,97.37,1,1,True
+variational_n4.qasm,4,Gate Substitution,0.05,0.745,99.02,1,1,True
+variational_n4.qasm,4,Multiple Gate Insertion,0.05,0.665,99.02,1,1,True

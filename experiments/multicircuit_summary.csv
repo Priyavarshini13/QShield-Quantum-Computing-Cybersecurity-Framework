@@ -1,0 +1,8 @@
+metric,value
+usable_circuits,30.0
+skipped_circuits,13.0
+total_evaluations,876.0
+accuracy,0.886986301369863
+precision,0.9294964028776979
+recall,0.9281609195402298
+f1,0.9288281811646297

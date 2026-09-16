@@ -1,0 +1,16 @@
+algorithm,num_qubits,attack,noise_rate,status,risk_level,risk_score,anomaly_probability,normal_probability,tvd,noise_tvd_baseline,excess_tvd,calibrated_probability,original_gates,attacked_gates,original_depth,attacked_depth
+QFT,3,normal,0.005,NORMAL,LOW,21.7,31.0,69.0,0.07,0.1857,0.0,21.7,11,11,8,8
+QFT,3,gate_insertion,0.005,ANOMALOUS,HIGH,88.71,98.5,1.5,0.515,0.1857,0.3293,88.71,11,12,8,9
+QFT,3,gate_deletion,0.005,NORMAL,LOW,11.9,17.0,83.0,0.075,0.1857,0.0,11.9,11,10,8,7
+QFT,3,gate_substitution,0.005,ANOMALOUS,HIGH,85.61,97.5,2.5,0.475,0.1857,0.2893,85.61,11,11,8,8
+QFT,3,multiple_gate_insertion,0.005,ANOMALOUS,MEDIUM,66.5,95.0,5.0,0.105,0.1857,0.0,66.5,11,13,8,8
+QFT,3,normal,0.02,NORMAL,LOW,22.05,31.5,68.5,0.07,0.2982,0.0,22.05,11,11,8,8
+QFT,3,gate_insertion,0.02,ANOMALOUS,MEDIUM,66.5,95.0,5.0,0.09,0.2982,0.0,66.5,11,12,8,9
+QFT,3,gate_deletion,0.02,NORMAL,LOW,22.75,32.5,67.5,0.08,0.2982,0.0,22.75,11,10,8,7
+QFT,3,gate_substitution,0.02,ANOMALOUS,HIGH,80.11,98.0,2.0,0.49,0.2982,0.1918,80.11,11,11,8,8
+QFT,3,multiple_gate_insertion,0.02,ANOMALOUS,HIGH,70.26,89.5,10.5,0.425,0.2982,0.1268,70.26,11,13,8,9
+QFT,3,normal,0.05,NORMAL,LOW,24.85,35.5,64.5,0.115,0.4186,0.0,24.85,11,11,8,8
+QFT,3,gate_insertion,0.05,NORMAL,MEDIUM,32.55,46.5,53.5,0.095,0.4186,0.0,32.55,11,12,8,8
+QFT,3,gate_deletion,0.05,ANOMALOUS,MEDIUM,68.94,94.5,5.5,0.465,0.4186,0.0464,68.94,11,10,8,7
+QFT,3,gate_substitution,0.05,ANOMALOUS,HIGH,70.59,96.0,4.0,0.475,0.4186,0.0564,70.59,11,11,8,8
+QFT,3,multiple_gate_insertion,0.05,ANOMALOUS,MEDIUM,66.85,95.5,4.5,0.085,0.4186,0.0,66.85,11,13,8,9

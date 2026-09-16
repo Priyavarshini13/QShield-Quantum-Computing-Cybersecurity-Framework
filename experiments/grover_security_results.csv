@@ -1,0 +1,16 @@
+algorithm,target_state,attack_type,noise_rate,expected_label,prediction,correct_prediction,status,risk_level,risk_score,normal_probability,anomaly_probability,grover_success_probability,observed_tvd,noise_tvd_baseline,excess_tvd,calibrated_probability,original_gates,modified_gates,gate_difference
+Grover,11,Normal,0.005,0,0,1,NORMAL,LOW,17.5,75.0,25.0,95.0,0.05,0.1857,0.0,17.5,14,14,0
+Grover,11,Gate Insertion,0.005,1,1,1,ANOMALOUS,HIGH,100.0,0.0,100.0,1.0,0.99,0.1857,0.8043,100.0,14,15,1
+Grover,11,Gate Deletion,0.005,1,1,1,ANOMALOUS,HIGH,99.3,1.0,99.0,4.0,0.96,0.1857,0.7743,99.3,14,13,-1
+Grover,11,Gate Substitution,0.005,1,1,1,ANOMALOUS,HIGH,90.61,0.5,99.5,46.5,0.535,0.1857,0.3493,90.61,14,14,0
+Grover,11,Multiple Gate Insertion,0.005,1,1,1,ANOMALOUS,HIGH,100.0,0.0,100.0,1.5,0.985,0.1857,0.7993,100.0,14,16,2
+Grover,11,Normal,0.02,0,0,1,NORMAL,LOW,19.6,72.0,28.0,86.5,0.135,0.2982,0.0,19.6,14,14,0
+Grover,11,Gate Insertion,0.02,1,1,1,ANOMALOUS,HIGH,82.21,2.0,98.0,47.5,0.525,0.2982,0.2268,82.21,14,15,1
+Grover,11,Gate Deletion,0.02,1,1,1,ANOMALOUS,HIGH,82.41,3.0,97.0,46.0,0.54,0.2982,0.2418,82.41,14,13,-1
+Grover,11,Gate Substitution,0.02,1,1,1,ANOMALOUS,HIGH,100.0,0.0,100.0,8.5,0.915,0.2982,0.6168,100.0,14,14,0
+Grover,11,Multiple Gate Insertion,0.02,1,1,1,ANOMALOUS,HIGH,100.0,0.0,100.0,7.5,0.925,0.2982,0.6268,100.0,14,16,2
+Grover,11,Normal,0.05,0,1,0,ANOMALOUS,MEDIUM,38.85,44.5,55.5,64.0,0.36,0.4186,0.0,38.85,14,14,0
+Grover,11,Gate Insertion,0.05,1,1,1,ANOMALOUS,HIGH,79.34,3.5,96.5,38.5,0.615,0.4186,0.1964,79.34,14,15,1
+Grover,11,Gate Deletion,0.05,1,0,0,NORMAL,LOW,23.1,67.0,33.0,68.0,0.32,0.4186,0.0,23.1,14,13,-1
+Grover,11,Gate Substitution,0.05,1,1,1,ANOMALOUS,HIGH,100.0,0.0,100.0,7.0,0.93,0.4186,0.5114,100.0,14,14,0
+Grover,11,Multiple Gate Insertion,0.05,1,1,1,ANOMALOUS,HIGH,95.59,0.0,100.0,15.5,0.845,0.4186,0.4264,95.59,14,16,2

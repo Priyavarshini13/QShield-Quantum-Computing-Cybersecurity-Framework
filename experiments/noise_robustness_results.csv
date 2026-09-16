@@ -1,0 +1,31 @@
+noise_rate,attack_type,tvd,risk_score,status,expected_label,predicted_label,correct
+0.005,Normal,0.18,21.42,NORMAL,0,0,True
+0.005,Gate Insertion,0.32,82.85,ANOMALOUS,1,1,True
+0.005,Gate Deletion,0.195,21.42,NORMAL,1,0,False
+0.005,Gate Substitution,0.37,92.21,ANOMALOUS,1,1,True
+0.005,Multiple Gate Insertion,0.395,98.51,ANOMALOUS,1,1,True
+0.01,Normal,0.16,10.43,NORMAL,0,0,True
+0.01,Gate Insertion,0.35,88.29,ANOMALOUS,1,1,True
+0.01,Gate Deletion,0.24,51.04,ANOMALOUS,1,1,True
+0.01,Gate Substitution,0.33,80.1,ANOMALOUS,1,1,True
+0.01,Multiple Gate Insertion,0.365,97.74,ANOMALOUS,1,1,True
+0.02,Normal,0.205,13.47,NORMAL,0,0,True
+0.02,Gate Insertion,0.29,70.54,ANOMALOUS,1,1,True
+0.02,Gate Deletion,0.225,45.75,NORMAL,1,0,False
+0.02,Gate Substitution,0.4,91.35,ANOMALOUS,1,1,True
+0.02,Multiple Gate Insertion,0.355,93.49,ANOMALOUS,1,1,True
+0.03,Normal,0.195,13.47,NORMAL,0,0,True
+0.03,Gate Insertion,0.27,37.03,NORMAL,1,0,False
+0.03,Gate Deletion,0.245,37.03,NORMAL,1,0,False
+0.03,Gate Substitution,0.35,81.78,ANOMALOUS,1,1,True
+0.03,Multiple Gate Insertion,0.39,96.65,ANOMALOUS,1,1,True
+0.04,Normal,0.23,45.75,NORMAL,0,0,True
+0.04,Gate Insertion,0.34,70.54,ANOMALOUS,1,1,True
+0.04,Gate Deletion,0.31,70.54,ANOMALOUS,1,1,True
+0.04,Gate Substitution,0.375,86.63,ANOMALOUS,1,1,True
+0.04,Multiple Gate Insertion,0.335,95.49,ANOMALOUS,1,1,True
+0.05,Normal,0.265,37.03,NORMAL,0,0,True
+0.05,Gate Insertion,0.31,70.54,ANOMALOUS,1,1,True
+0.05,Gate Deletion,0.28,37.03,NORMAL,1,0,False
+0.05,Gate Substitution,0.305,70.54,ANOMALOUS,1,1,True
+0.05,Multiple Gate Insertion,0.305,95.49,ANOMALOUS,1,1,True

@@ -1,0 +1,4 @@
+Model,Accuracy Mean,Accuracy Std,Precision,Recall,F1 Mean,F1 Std,CV Folds
+Random Forest,0.8787,0.0497,0.9263,0.9212,0.9232,0.0321,5
+SVM,0.8433,0.0675,0.9205,0.8791,0.8988,0.0439,5
+Gradient Boosting,0.8696,0.0492,0.9112,0.9265,0.918,0.0327,5

@@ -1,0 +1,16 @@
+algorithm,num_qubits,attack,noise_rate,status,risk_level,risk_score,anomaly_probability,normal_probability,tvd,noise_tvd_baseline,excess_tvd,calibrated_probability,original_gates,attacked_gates,original_depth,attacked_depth
+Shor,8,normal,0.005,NORMAL,LOW,13.3,19.0,81.0,0.03,0.1857,0.0,13.3,25,25,14,14
+Shor,8,gate_insertion,0.005,ANOMALOUS,MEDIUM,62.65,89.5,10.5,0.03,0.1857,0.0,62.65,25,26,14,14
+Shor,8,gate_deletion,0.005,NORMAL,LOW,13.3,19.0,81.0,0.025,0.1857,0.0,13.3,25,24,14,14
+Shor,8,gate_substitution,0.005,ANOMALOUS,HIGH,85.81,93.5,6.5,0.525,0.1857,0.3393,85.81,25,25,14,14
+Shor,8,multiple_gate_insertion,0.005,ANOMALOUS,MEDIUM,65.1,93.0,7.0,0.035,0.1857,0.0,65.1,25,27,14,14
+Shor,8,normal,0.02,NORMAL,LOW,10.85,15.5,84.5,0.08,0.2982,0.0,10.85,25,25,14,14
+Shor,8,gate_insertion,0.02,ANOMALOUS,MEDIUM,65.1,93.0,7.0,0.11,0.2982,0.0,65.1,25,26,14,14
+Shor,8,gate_deletion,0.02,NORMAL,LOW,8.75,12.5,87.5,0.09,0.2982,0.0,8.75,25,24,14,13
+Shor,8,gate_substitution,0.02,ANOMALOUS,HIGH,85.31,99.0,1.0,0.565,0.2982,0.2668,85.31,25,25,14,14
+Shor,8,multiple_gate_insertion,0.02,ANOMALOUS,HIGH,100.0,100.0,0.0,0.995,0.2982,0.6968,100.0,25,27,14,14
+Shor,8,normal,0.05,NORMAL,LOW,14.0,20.0,80.0,0.185,0.4186,0.0,14.0,25,25,14,14
+Shor,8,gate_insertion,0.05,NORMAL,LOW,13.65,19.5,80.5,0.21,0.4186,0.0,13.65,25,26,14,14
+Shor,8,gate_deletion,0.05,ANOMALOUS,HIGH,92.19,99.0,1.0,0.8,0.4186,0.3814,92.19,25,24,14,12
+Shor,8,gate_substitution,0.05,ANOMALOUS,HIGH,73.69,94.0,6.0,0.55,0.4186,0.1314,73.69,25,25,14,14
+Shor,8,multiple_gate_insertion,0.05,ANOMALOUS,HIGH,100.0,100.0,0.0,0.975,0.4186,0.5564,100.0,25,27,14,14

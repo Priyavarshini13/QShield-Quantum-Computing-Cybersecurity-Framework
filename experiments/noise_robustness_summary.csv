@@ -1,0 +1,31 @@
+noise_rate,attack_type,detection_rate,average_risk_score,average_tvd,samples
+0.005,Normal,4.35,18.23,0.208,23
+0.005,Gate Insertion,100.0,84.91,0.5711,22
+0.005,Gate Deletion,54.55,57.03,0.4457,22
+0.005,Gate Substitution,100.0,83.7,0.5125,22
+0.005,Multiple Gate Insertion,100.0,90.03,0.6507,22
+0.01,Normal,13.04,20.88,0.2576,23
+0.01,Gate Insertion,100.0,77.0,0.4945,22
+0.01,Gate Deletion,68.18,61.96,0.4986,22
+0.01,Gate Substitution,100.0,81.59,0.5955,22
+0.01,Multiple Gate Insertion,100.0,84.43,0.5591,22
+0.02,Normal,13.04,26.1,0.3267,23
+0.02,Gate Insertion,90.91,73.49,0.5239,22
+0.02,Gate Deletion,77.27,69.33,0.5866,22
+0.02,Gate Substitution,95.45,80.02,0.6245,22
+0.02,Multiple Gate Insertion,100.0,88.59,0.7025,22
+0.03,Normal,17.39,29.48,0.3659,23
+0.03,Gate Insertion,95.45,78.5,0.615,22
+0.03,Gate Deletion,81.82,62.54,0.5614,22
+0.03,Gate Substitution,100.0,74.4,0.5602,22
+0.03,Multiple Gate Insertion,95.45,82.14,0.67,22
+0.04,Normal,21.74,31.94,0.3965,23
+0.04,Gate Insertion,90.91,75.06,0.6075,22
+0.04,Gate Deletion,63.64,62.2,0.5936,22
+0.04,Gate Substitution,100.0,79.72,0.6127,22
+0.04,Multiple Gate Insertion,95.45,79.02,0.603,22
+0.05,Normal,26.09,33.55,0.4159,23
+0.05,Gate Insertion,95.45,74.49,0.615,22
+0.05,Gate Deletion,90.91,66.64,0.598,22
+0.05,Gate Substitution,95.45,76.0,0.63,22
+0.05,Multiple Gate Insertion,100.0,82.84,0.6777,22
